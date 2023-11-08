@@ -1,0 +1,3 @@
+[console_scripts]
+tartabot = pond2.tartabot:main
+
