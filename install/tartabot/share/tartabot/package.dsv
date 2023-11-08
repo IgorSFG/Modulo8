@@ -1,0 +1,6 @@
+source;share/tartabot/hook/pythonpath.ps1
+source;share/tartabot/hook/pythonpath.dsv
+source;share/tartabot/hook/pythonpath.sh
+source;share/tartabot/hook/ament_prefix_path.ps1
+source;share/tartabot/hook/ament_prefix_path.dsv
+source;share/tartabot/hook/ament_prefix_path.sh

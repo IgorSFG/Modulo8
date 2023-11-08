@@ -1,0 +1,3 @@
+[console_scripts]
+tartabot = tartabot.tartbot:main
+
