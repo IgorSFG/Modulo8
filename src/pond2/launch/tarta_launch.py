@@ -14,7 +14,7 @@ def generate_launch_description():
     )
     turtlebot3_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            [os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch', 'turtlebot3_world.launch.py')],
+            [os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch'), '/turtlebot3_world.launch.py'],
         )
     )
     pond2_tartabot = Node(
