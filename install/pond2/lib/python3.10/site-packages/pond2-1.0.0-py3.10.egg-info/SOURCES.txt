@@ -1,3 +1,4 @@
+README.md
 package.xml
 setup.cfg
 setup.py
@@ -8,9 +9,7 @@ setup.py
 ../../build/pond2/pond2.egg-info/requires.txt
 ../../build/pond2/pond2.egg-info/top_level.txt
 ../../build/pond2/pond2.egg-info/zip-safe
-launch/mapping2_launch.py
 launch/mapping_launch.py
-launch/tarta2_launch.py
 launch/tarta_launch.py
 pond2/__init__.py
 pond2/savemap.py
