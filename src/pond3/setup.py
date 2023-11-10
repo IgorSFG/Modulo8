@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'chatbot= pond3.chatbot:main',
         ],
     },
 )
