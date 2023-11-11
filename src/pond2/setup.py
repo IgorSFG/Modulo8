@@ -24,7 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'tartabot= pond2.tartabot:main',
-            'savemap= pond2.savemap:main'
+            'teleop= pond2.teleop:main'
         ],
     },
 )
