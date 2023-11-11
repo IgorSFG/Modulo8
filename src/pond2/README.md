@@ -1,5 +1,5 @@
 # Mapenado e navegando com Tartabot!
-Tartabot consiste em um pacote ROS com a função de mapear um local e depois navegar por ele através de coorenadas previamente estabelecidas.
+Tartabot tem a função de mapear um local e depois navegar por ele através de coorenadas previamente estabelecidas. Ele foi criado como uma aplicação utilizando de pacotes ROS e launchers.
 
 ## Instalação do Pacote ROS
 Para a instalação do pacote pond2, reponsável pelas funcionalidades do tartabot, devem ser seguidos os seguintes passos.
