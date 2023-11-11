@@ -40,7 +40,7 @@ class CustomTeleopNode(Node):
 
     def save_map(self):
         self.get_logger().info("Saving the map...")
-        map_saver_command = "ros2 run nav2_map_server map_saver_cli -f $(pwd)/src/pond2/maps/my-mapa"
+        map_saver_command = "ros2 run nav2_map_server map_saver_cli -f my-mapa"
         os.system(map_saver_command)
     
     def destroy_node(self):

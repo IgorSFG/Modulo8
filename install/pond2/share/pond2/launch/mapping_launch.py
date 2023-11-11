@@ -28,7 +28,7 @@ def generate_launch_description():
         package='pond2',
         executable='teleop',
         name='pond2_teleop',
-        prefix='gnome-terminal -- bash -c "cd $(pwd)/src/pond2/maps/ && ./teleop" --',
+        prefix = 'gnome-terminal --',
         output='screen'
     )
     
