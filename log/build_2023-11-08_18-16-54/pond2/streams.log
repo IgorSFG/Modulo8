@@ -1,0 +1,22 @@
+[2.936s] Invoking command in '/home/igor/Code/Modulo8/src/pond2': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed
+[3.308s] running egg_info
+[3.309s] writing ../../build/pond2/pond2.egg-info/PKG-INFO
+[3.310s] writing dependency_links to ../../build/pond2/pond2.egg-info/dependency_links.txt
+[3.315s] writing entry points to ../../build/pond2/pond2.egg-info/entry_points.txt
+[3.315s] writing requirements to ../../build/pond2/pond2.egg-info/requires.txt
+[3.316s] writing top-level names to ../../build/pond2/pond2.egg-info/top_level.txt
+[3.321s] reading manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[3.324s] writing manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[3.324s] running build
+[3.324s] running build_py
+[3.325s] running install
+[3.325s] running install_lib
+[3.327s] running install_data
+[3.329s] creating /home/igor/Code/Modulo8/install/pond2/share/pond2/launch
+[3.331s] running install_egg_info
+[3.334s] removing '/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info' (and everything under it)
+[3.335s] Copying ../../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info
+[3.336s] running install_scripts
+[3.368s] Installing tartabot script to /home/igor/Code/Modulo8/install/pond2/lib/pond2
+[3.369s] writing list of installed files to '/home/igor/Code/Modulo8/build/pond2/install.log'
+[3.427s] Invoked command in '/home/igor/Code/Modulo8/src/pond2' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed

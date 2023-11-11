@@ -1,0 +1,29 @@
+[3.127s] Invoking command in '/home/igor/Code/Modulo8/src/pond2': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond2/prefix_override:/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond2 build --build-base /home/igor/Code/Modulo8/src/build/pond2/build install --record /home/igor/Code/Modulo8/src/build/pond2/install.log --single-version-externally-managed
+[3.900s] running egg_info
+[3.900s] writing ../build/pond2/pond2.egg-info/PKG-INFO
+[3.900s] writing dependency_links to ../build/pond2/pond2.egg-info/dependency_links.txt
+[3.906s] writing entry points to ../build/pond2/pond2.egg-info/entry_points.txt
+[3.926s] writing requirements to ../build/pond2/pond2.egg-info/requires.txt
+[3.929s] writing top-level names to ../build/pond2/pond2.egg-info/top_level.txt
+[3.937s] reading manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'
+[3.940s] writing manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'
+[3.941s] running build
+[3.941s] running build_py
+[3.943s] copying pond2/tartabot.py -> /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+[3.944s] copying pond2/savemap.py -> /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+[3.945s] running install
+[3.948s] running install_lib
+[3.954s] copying /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2/tartabot.py -> /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+[3.955s] copying /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2/savemap.py -> /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+[3.957s] byte-compiling /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2/tartabot.py to tartabot.cpython-310.pyc
+[3.960s] byte-compiling /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2/savemap.py to savemap.cpython-310.pyc
+[3.982s] running install_data
+[3.984s] copying launch/tartalaunch.py -> /home/igor/Code/Modulo8/src/install/pond2/share/pond2/launch
+[3.984s] running install_egg_info
+[3.993s] removing '/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info' (and everything under it)
+[3.994s] Copying ../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info
+[4.003s] running install_scripts
+[4.065s] Installing savemap script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2
+[4.066s] Installing tartabot script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2
+[4.067s] writing list of installed files to '/home/igor/Code/Modulo8/src/build/pond2/install.log'
+[4.343s] Invoked command in '/home/igor/Code/Modulo8/src/pond2' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond2/prefix_override:/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond2 build --build-base /home/igor/Code/Modulo8/src/build/pond2/build install --record /home/igor/Code/Modulo8/src/build/pond2/install.log --single-version-externally-managed

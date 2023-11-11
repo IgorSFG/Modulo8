@@ -1,0 +1,5 @@
+  File "/home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py", line 3
+    import .dictionary.intent
+           ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,23 @@
+[2.233s] Invoking command in '/home/igor/Code/Modulo8/src/pond2': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed
+[2.676s] running egg_info
+[2.677s] writing ../../build/pond2/pond2.egg-info/PKG-INFO
+[2.678s] writing dependency_links to ../../build/pond2/pond2.egg-info/dependency_links.txt
+[2.679s] writing entry points to ../../build/pond2/pond2.egg-info/entry_points.txt
+[2.680s] writing requirements to ../../build/pond2/pond2.egg-info/requires.txt
+[2.681s] writing top-level names to ../../build/pond2/pond2.egg-info/top_level.txt
+[2.685s] reading manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[2.688s] writing manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[2.688s] running build
+[2.688s] running build_py
+[2.688s] running install
+[2.689s] running install_lib
+[2.691s] running install_data
+[2.692s] copying launch/tarta_launch.py -> /home/igor/Code/Modulo8/install/pond2/share/pond2/launch
+[2.693s] running install_egg_info
+[2.698s] removing '/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info' (and everything under it)
+[2.698s] Copying ../../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info
+[2.698s] running install_scripts
+[2.740s] Installing savemap script to /home/igor/Code/Modulo8/install/pond2/lib/pond2
+[2.742s] Installing tartabot script to /home/igor/Code/Modulo8/install/pond2/lib/pond2
+[2.743s] writing list of installed files to '/home/igor/Code/Modulo8/build/pond2/install.log'
+[2.795s] Invoked command in '/home/igor/Code/Modulo8/src/pond2' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed

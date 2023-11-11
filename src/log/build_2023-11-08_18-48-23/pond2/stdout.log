@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/pond2/pond2.egg-info
+writing ../build/pond2/pond2.egg-info/PKG-INFO
+writing dependency_links to ../build/pond2/pond2.egg-info/dependency_links.txt
+writing entry points to ../build/pond2/pond2.egg-info/entry_points.txt
+writing requirements to ../build/pond2/pond2.egg-info/requires.txt
+writing top-level names to ../build/pond2/pond2.egg-info/top_level.txt
+writing manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'
+reading manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'
+writing manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/igor/Code/Modulo8/src/build/pond2/build
+creating /home/igor/Code/Modulo8/src/build/pond2/build/lib
+creating /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+copying pond2/tartabot.py -> /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+copying pond2/__init__.py -> /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+copying pond2/savemap.py -> /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2
+running install
+running install_lib
+creating /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+copying /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2/tartabot.py -> /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+copying /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2/__init__.py -> /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+copying /home/igor/Code/Modulo8/src/build/pond2/build/lib/pond2/savemap.py -> /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2
+byte-compiling /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2/tartabot.py to tartabot.cpython-310.pyc
+byte-compiling /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2/savemap.py to savemap.cpython-310.pyc
+running install_data
+creating /home/igor/Code/Modulo8/src/install/pond2/share/ament_index
+creating /home/igor/Code/Modulo8/src/install/pond2/share/ament_index/resource_index
+creating /home/igor/Code/Modulo8/src/install/pond2/share/ament_index/resource_index/packages
+copying resource/pond2 -> /home/igor/Code/Modulo8/src/install/pond2/share/ament_index/resource_index/packages
+copying package.xml -> /home/igor/Code/Modulo8/src/install/pond2/share/pond2
+creating /home/igor/Code/Modulo8/src/install/pond2/share/pond2/launch
+running install_egg_info
+Copying ../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info
+running install_scripts
+Installing savemap script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2
+Installing tartabot script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2
+writing list of installed files to '/home/igor/Code/Modulo8/src/build/pond2/install.log'

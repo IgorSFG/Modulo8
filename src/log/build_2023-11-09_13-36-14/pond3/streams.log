@@ -1,0 +1,26 @@
+[9.373s] Invoking command in '/home/igor/Code/Modulo8/src/pond3': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond3/prefix_override:/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond3 build --build-base /home/igor/Code/Modulo8/src/build/pond3/build install --record /home/igor/Code/Modulo8/src/build/pond3/install.log --single-version-externally-managed
+[11.847s] running egg_info
+[11.849s] writing ../build/pond3/pond3.egg-info/PKG-INFO
+[11.849s] writing dependency_links to ../build/pond3/pond3.egg-info/dependency_links.txt
+[11.851s] writing entry points to ../build/pond3/pond3.egg-info/entry_points.txt
+[11.862s] writing requirements to ../build/pond3/pond3.egg-info/requires.txt
+[11.862s] writing top-level names to ../build/pond3/pond3.egg-info/top_level.txt
+[11.871s] reading manifest file '../build/pond3/pond3.egg-info/SOURCES.txt'
+[11.884s] writing manifest file '../build/pond3/pond3.egg-info/SOURCES.txt'
+[11.884s] running build
+[11.885s] running build_py
+[11.886s] running install
+[11.887s] running install_lib
+[11.890s] byte-compiling /home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py to chatbot.cpython-310.pyc
+[11.890s]   File "/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py", line 3
+[11.890s]     import .dictionary.intent
+[11.890s]            ^
+[11.890s] SyntaxError: invalid syntax
+[11.890s] 
+[11.891s] running install_data
+[11.898s] running install_egg_info
+[11.910s] removing '/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info' (and everything under it)
+[11.910s] Copying ../build/pond3/pond3.egg-info to /home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info
+[11.918s] running install_scripts
+[12.079s] writing list of installed files to '/home/igor/Code/Modulo8/src/build/pond3/install.log'
+[12.305s] Invoked command in '/home/igor/Code/Modulo8/src/pond3' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond3/prefix_override:/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond3 build --build-base /home/igor/Code/Modulo8/src/build/pond3/build install --record /home/igor/Code/Modulo8/src/build/pond3/install.log --single-version-externally-managed

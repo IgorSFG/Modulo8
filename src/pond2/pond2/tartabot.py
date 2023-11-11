@@ -32,6 +32,7 @@ def main():
     create_pose_stamped(nav, 2.0, 0.0),
     create_pose_stamped(nav, 2.5, 1.0),
     create_pose_stamped(nav, 0.0, 1.0),
+    initial_pose
     ]
 
     nav.followWaypoints(waypoints)

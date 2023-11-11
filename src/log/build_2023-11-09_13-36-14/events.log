@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.001108] (pond2) JobQueued: {'identifier': 'pond2', 'dependencies': OrderedDict()}
+[0.002523] (pond3) JobQueued: {'identifier': 'pond3', 'dependencies': OrderedDict()}
+[0.003012] (pond2) JobStarted: {'identifier': 'pond2'}
+[0.099588] (-) TimerEvent: {}
+[0.201510] (-) TimerEvent: {}
+[0.302387] (-) TimerEvent: {}
+[0.404688] (-) TimerEvent: {}
+[0.506671] (-) TimerEvent: {}
+[0.608187] (-) TimerEvent: {}
+[0.715038] (-) TimerEvent: {}
+[0.787332] (pond3) JobStarted: {'identifier': 'pond3'}
+[0.817002] (-) TimerEvent: {}
+[0.920088] (-) TimerEvent: {}
+[1.022517] (-) TimerEvent: {}
+[1.123442] (-) TimerEvent: {}
+[1.226651] (-) TimerEvent: {}
+[1.333892] (-) TimerEvent: {}
+[1.436502] (-) TimerEvent: {}
+[1.537177] (-) TimerEvent: {}
+[1.639323] (-) TimerEvent: {}
+[1.743734] (-) TimerEvent: {}
+[1.845243] (-) TimerEvent: {}
+[1.946131] (-) TimerEvent: {}
+[2.047303] (-) TimerEvent: {}
+[2.151636] (-) TimerEvent: {}
+[2.253155] (-) TimerEvent: {}
+[2.355245] (-) TimerEvent: {}
+[2.457366] (-) TimerEvent: {}
+[2.558464] (-) TimerEvent: {}
+[2.661186] (-) TimerEvent: {}
+[2.762159] (-) TimerEvent: {}
+[2.862848] (-) TimerEvent: {}
+[2.965856] (-) TimerEvent: {}
+[3.067844] (-) TimerEvent: {}
+[3.168797] (-) TimerEvent: {}
+[3.271686] (-) TimerEvent: {}
+[3.373367] (-) TimerEvent: {}
+[3.475720] (-) TimerEvent: {}
+[3.578237] (-) TimerEvent: {}
+[3.680824] (-) TimerEvent: {}
+[3.781808] (-) TimerEvent: {}
+[3.882641] (-) TimerEvent: {}
+[3.983935] (-) TimerEvent: {}
+[4.087487] (-) TimerEvent: {}
+[4.188867] (-) TimerEvent: {}
+[4.289849] (-) TimerEvent: {}
+[4.391031] (-) TimerEvent: {}
+[4.493456] (-) TimerEvent: {}
+[4.594175] (-) TimerEvent: {}
+[4.697732] (-) TimerEvent: {}
+[4.798919] (-) TimerEvent: {}
+[4.901282] (-) TimerEvent: {}
+[5.002947] (-) TimerEvent: {}
+[5.103693] (-) TimerEvent: {}
+[5.204880] (-) TimerEvent: {}
+[5.308695] (-) TimerEvent: {}
+[5.409256] (-) TimerEvent: {}
+[5.510123] (-) TimerEvent: {}
+[5.610843] (-) TimerEvent: {}
+[5.717231] (-) TimerEvent: {}
+[5.817740] (-) TimerEvent: {}
+[5.918811] (-) TimerEvent: {}
+[6.020838] (-) TimerEvent: {}
+[6.122740] (-) TimerEvent: {}
+[6.224711] (-) TimerEvent: {}
+[6.326763] (-) TimerEvent: {}
+[6.428809] (-) TimerEvent: {}
+[6.531072] (-) TimerEvent: {}
+[6.636874] (-) TimerEvent: {}
+[6.739363] (-) TimerEvent: {}
+[6.842682] (-) TimerEvent: {}
+[6.953730] (-) TimerEvent: {}
+[7.055382] (-) TimerEvent: {}
+[7.156683] (-) TimerEvent: {}
+[7.259186] (-) TimerEvent: {}
+[7.364647] (-) TimerEvent: {}
+[7.465527] (-) TimerEvent: {}
+[7.567217] (-) TimerEvent: {}
+[7.671168] (-) TimerEvent: {}
+[7.772964] (-) TimerEvent: {}
+[7.878054] (-) TimerEvent: {}
+[7.978511] (-) TimerEvent: {}
+[8.079217] (-) TimerEvent: {}
+[8.179953] (-) TimerEvent: {}
+[8.282227] (-) TimerEvent: {}
+[8.391426] (-) TimerEvent: {}
+[8.493904] (-) TimerEvent: {}
+[8.602336] (-) TimerEvent: {}
+[8.703224] (-) TimerEvent: {}
+[8.805296] (-) TimerEvent: {}
+[8.915055] (-) TimerEvent: {}
+[9.015698] (-) TimerEvent: {}
+[9.118267] (-) TimerEvent: {}
+[9.219841] (-) TimerEvent: {}
+[9.327291] (-) TimerEvent: {}
+[9.428600] (-) TimerEvent: {}
+[9.529365] (-) TimerEvent: {}
+[9.630012] (-) TimerEvent: {}
+[9.731417] (-) TimerEvent: {}
+[9.835100] (-) TimerEvent: {}
+[9.936730] (-) TimerEvent: {}
+[10.038709] (-) TimerEvent: {}
+[10.138551] (pond3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pond3', 'build', '--build-base', '/home/igor/Code/Modulo8/src/build/pond3/build', 'install', '--record', '/home/igor/Code/Modulo8/src/build/pond3/install.log', '--single-version-externally-managed'], 'cwd': '/home/igor/Code/Modulo8/src/pond3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'igor', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/igor', 'OLDPWD': '/home/igor/Code/Modulo8/src/pond2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '3300', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'igor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'igor', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/igor/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/linux:@/tmp/.ICE-unix/1110,unix/linux:/tmp/.ICE-unix/1110', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4eb9811_767e_493c_ab2f_374bb41d096d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A484D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/igor/Code/Modulo8/src/build/pond3', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/igor/Code/Modulo8/src/build/pond3/prefix_override:/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.178705] (-) TimerEvent: {}
+[10.288083] (-) TimerEvent: {}
+[10.388763] (-) TimerEvent: {}
+[10.490615] (-) TimerEvent: {}
+[10.591445] (-) TimerEvent: {}
+[10.611982] (pond2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pond2', 'build', '--build-base', '/home/igor/Code/Modulo8/src/build/pond2/build', 'install', '--record', '/home/igor/Code/Modulo8/src/build/pond2/install.log', '--single-version-externally-managed'], 'cwd': '/home/igor/Code/Modulo8/src/pond2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'igor', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/igor', 'OLDPWD': '/home/igor/Code/Modulo8/src/pond2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '3300', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'igor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'igor', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/igor/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/linux:@/tmp/.ICE-unix/1110,unix/linux:/tmp/.ICE-unix/1110', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4eb9811_767e_493c_ab2f_374bb41d096d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A484D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/igor/Code/Modulo8/src/build/pond2', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/igor/Code/Modulo8/src/build/pond2/prefix_override:/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.691610] (-) TimerEvent: {}
+[10.792469] (-) TimerEvent: {}
+[10.893678] (-) TimerEvent: {}
+[10.995089] (-) TimerEvent: {}
+[11.097356] (-) TimerEvent: {}
+[11.198328] (-) TimerEvent: {}
+[11.299049] (-) TimerEvent: {}
+[11.401504] (-) TimerEvent: {}
+[11.503073] (-) TimerEvent: {}
+[11.603957] (-) TimerEvent: {}
+[11.705355] (-) TimerEvent: {}
+[11.807363] (-) TimerEvent: {}
+[11.908322] (-) TimerEvent: {}
+[12.010490] (-) TimerEvent: {}
+[12.111937] (-) TimerEvent: {}
+[12.215166] (-) TimerEvent: {}
+[12.316799] (-) TimerEvent: {}
+[12.417772] (-) TimerEvent: {}
+[12.519108] (-) TimerEvent: {}
+[12.621218] (-) TimerEvent: {}
+[12.634415] (pond3) StdoutLine: {'line': b'running egg_info\n'}
+[12.635883] (pond3) StdoutLine: {'line': b'writing ../build/pond3/pond3.egg-info/PKG-INFO\n'}
+[12.636239] (pond3) StdoutLine: {'line': b'writing dependency_links to ../build/pond3/pond3.egg-info/dependency_links.txt\n'}
+[12.637730] (pond3) StdoutLine: {'line': b'writing entry points to ../build/pond3/pond3.egg-info/entry_points.txt\n'}
+[12.648543] (pond3) StdoutLine: {'line': b'writing requirements to ../build/pond3/pond3.egg-info/requires.txt\n'}
+[12.649306] (pond3) StdoutLine: {'line': b'writing top-level names to ../build/pond3/pond3.egg-info/top_level.txt\n'}
+[12.657871] (pond3) StdoutLine: {'line': b"reading manifest file '../build/pond3/pond3.egg-info/SOURCES.txt'\n"}
+[12.670836] (pond3) StdoutLine: {'line': b"writing manifest file '../build/pond3/pond3.egg-info/SOURCES.txt'\n"}
+[12.671631] (pond3) StdoutLine: {'line': b'running build\n'}
+[12.671970] (pond3) StdoutLine: {'line': b'running build_py\n'}
+[12.672899] (pond3) StdoutLine: {'line': b'running install\n'}
+[12.673997] (pond3) StdoutLine: {'line': b'running install_lib\n'}
+[12.676569] (pond3) StdoutLine: {'line': b'byte-compiling /home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py to chatbot.cpython-310.pyc\n'}
+[12.677001] (pond3) StderrLine: {'line': b'  File "/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py", line 3\n'}
+[12.677231] (pond3) StderrLine: {'line': b'    import .dictionary.intent\n'}
+[12.677402] (pond3) StderrLine: {'line': b'           ^\n'}
+[12.677577] (pond3) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[12.677738] (pond3) StderrLine: {'line': b'\n'}
+[12.677910] (pond3) StdoutLine: {'line': b'running install_data\n'}
+[12.683338] (pond3) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.696863] (pond3) StdoutLine: {'line': b"removing '/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.697165] (pond3) StdoutLine: {'line': b'Copying ../build/pond3/pond3.egg-info to /home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info\n'}
+[12.704808] (pond3) StdoutLine: {'line': b'running install_scripts\n'}
+[12.721499] (-) TimerEvent: {}
+[12.823150] (-) TimerEvent: {}
+[12.863951] (pond3) StdoutLine: {'line': b"writing list of installed files to '/home/igor/Code/Modulo8/src/build/pond3/install.log'\n"}
+[12.927454] (-) TimerEvent: {}
+[12.935164] (pond2) StdoutLine: {'line': b'running egg_info\n'}
+[12.937704] (pond2) StdoutLine: {'line': b'writing ../build/pond2/pond2.egg-info/PKG-INFO\n'}
+[12.937976] (pond2) StdoutLine: {'line': b'writing dependency_links to ../build/pond2/pond2.egg-info/dependency_links.txt\n'}
+[12.949909] (pond2) StdoutLine: {'line': b'writing entry points to ../build/pond2/pond2.egg-info/entry_points.txt\n'}
+[12.952586] (pond2) StdoutLine: {'line': b'writing requirements to ../build/pond2/pond2.egg-info/requires.txt\n'}
+[12.955880] (pond2) StdoutLine: {'line': b'writing top-level names to ../build/pond2/pond2.egg-info/top_level.txt\n'}
+[12.969691] (pond2) StdoutLine: {'line': b"reading manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'\n"}
+[12.973408] (pond2) StdoutLine: {'line': b"writing manifest file '../build/pond2/pond2.egg-info/SOURCES.txt'\n"}
+[12.974049] (pond2) StdoutLine: {'line': b'running build\n'}
+[12.974468] (pond2) StdoutLine: {'line': b'running build_py\n'}
+[12.981100] (pond2) StdoutLine: {'line': b'running install\n'}
+[12.985617] (pond2) StdoutLine: {'line': b'running install_lib\n'}
+[12.992081] (pond2) StdoutLine: {'line': b'running install_data\n'}
+[12.994219] (pond2) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.005863] (pond2) StdoutLine: {'line': b"removing '/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.008743] (pond2) StdoutLine: {'line': b'Copying ../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info\n'}
+[13.018565] (pond2) StdoutLine: {'line': b'running install_scripts\n'}
+[13.027665] (-) TimerEvent: {}
+[13.091440] (pond3) CommandEnded: {'returncode': 0}
+[13.122167] (pond2) StdoutLine: {'line': b'Installing savemap script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2\n'}
+[13.123758] (pond2) StdoutLine: {'line': b'Installing tartabot script to /home/igor/Code/Modulo8/src/install/pond2/lib/pond2\n'}
+[13.126701] (pond2) StdoutLine: {'line': b"writing list of installed files to '/home/igor/Code/Modulo8/src/build/pond2/install.log'\n"}
+[13.127843] (-) TimerEvent: {}
+[13.228860] (-) TimerEvent: {}
+[13.331891] (-) TimerEvent: {}
+[13.433915] (-) TimerEvent: {}
+[13.535762] (-) TimerEvent: {}
+[13.617532] (pond3) JobEnded: {'identifier': 'pond3', 'rc': 0}
+[13.622675] (pond2) CommandEnded: {'returncode': 0}
+[13.636113] (-) TimerEvent: {}
+[13.739082] (-) TimerEvent: {}
+[13.839921] (-) TimerEvent: {}
+[13.941213] (-) TimerEvent: {}
+[14.042176] (-) TimerEvent: {}
+[14.064637] (pond2) JobEnded: {'identifier': 'pond2', 'rc': 0}
+[14.072528] (-) EventReactorShutdown: {}

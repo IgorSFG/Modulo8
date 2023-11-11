@@ -12,8 +12,8 @@ setup.py
 launch/mapping_launch.py
 launch/tarta_launch.py
 pond2/__init__.py
-pond2/savemap.py
 pond2/tartabot.py
+pond2/teleop.py
 resource/pond2
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,162 @@
+[2.440s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.440s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd9a19dfc10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd9a1c316c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd9a1c316c0>>)
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.552s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/igor/Code/Modulo8/src'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extensions ['ignore', 'ignore_ament_install']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extension 'ignore'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extension 'ignore_ament_install'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extensions ['colcon_pkg']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extension 'colcon_pkg'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extensions ['colcon_meta']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extension 'colcon_meta'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extensions ['ros']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(pond2) by extension 'ros'
+[2.588s] DEBUG:colcon.colcon_core.package_identification:Package 'pond2' with type 'ros.ament_python' and name 'pond2'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extensions ['ignore', 'ignore_ament_install']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extension 'ignore'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extension 'ignore_ament_install'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extensions ['colcon_pkg']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extension 'colcon_pkg'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extensions ['colcon_meta']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extension 'colcon_meta'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extensions ['ros']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(pond3) by extension 'ros'
+[2.590s] DEBUG:colcon.colcon_core.package_identification:Package 'pond3' with type 'ros.ament_python' and name 'pond3'
+[2.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.871s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[2.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.184s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_args' from command line to 'None'
+[3.184s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_target' from command line to 'None'
+[3.184s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_clean_first' from command line to 'False'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'cmake_force_configure' from command line to 'False'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'ament_cmake_args' from command line to 'None'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.185s] Level 5:colcon.colcon_core.verb:set package 'pond2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.185s] DEBUG:colcon.colcon_core.verb:Building package 'pond2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/igor/Code/Modulo8/src/build/pond2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/igor/Code/Modulo8/src/install/pond2', 'merge_install': False, 'path': '/home/igor/Code/Modulo8/src/pond2', 'symlink_install': False, 'test_result_base': None}
+[3.221s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_args' from command line to 'None'
+[3.221s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_target' from command line to 'None'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_clean_first' from command line to 'False'
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'cmake_force_configure' from command line to 'False'
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'ament_cmake_args' from command line to 'None'
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'pond3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.225s] DEBUG:colcon.colcon_core.verb:Building package 'pond3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/igor/Code/Modulo8/src/build/pond3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/igor/Code/Modulo8/src/install/pond3', 'merge_install': False, 'path': '/home/igor/Code/Modulo8/src/pond3', 'symlink_install': False, 'test_result_base': None}
+[3.263s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/igor/Code/Modulo8/src/pond2' with build type 'ament_python'
+[3.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('pond2', 'ament_prefix_path')
+[3.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/ament_prefix_path.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/ament_prefix_path.dsv'
+[3.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/ament_prefix_path.sh'
+[3.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.474s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/igor/Code/Modulo8/src/pond3' with build type 'ament_python'
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('pond3', 'ament_prefix_path')
+[3.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/ament_prefix_path.ps1'
+[3.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/ament_prefix_path.dsv'
+[3.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/ament_prefix_path.sh'
+[3.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/igor/Code/Modulo8/src/pond2'
+[4.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.044s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/igor/Code/Modulo8/src/pond3'
+[5.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/igor/Code/Modulo8/src/pond2': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond2/prefix_override:/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond2 build --build-base /home/igor/Code/Modulo8/src/build/pond2/build install --record /home/igor/Code/Modulo8/src/build/pond2/install.log --single-version-externally-managed
+[6.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/igor/Code/Modulo8/src/pond3': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond3/prefix_override:/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond3 build --build-base /home/igor/Code/Modulo8/src/build/pond3/build install --record /home/igor/Code/Modulo8/src/build/pond3/install.log --single-version-externally-managed
+[7.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/igor/Code/Modulo8/src/pond2' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond2/prefix_override:/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond2 build --build-base /home/igor/Code/Modulo8/src/build/pond2/build install --record /home/igor/Code/Modulo8/src/build/pond2/install.log --single-version-externally-managed
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2' for CMake module files
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2' for CMake config files
+[7.198s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2/lib'
+[7.198s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2/bin'
+[7.198s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2/lib/pkgconfig/pond2.pc'
+[7.199s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2/lib/python3.10/site-packages'
+[7.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('pond2', 'pythonpath')
+[7.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/pythonpath.ps1'
+[7.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/pythonpath.dsv'
+[7.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/hook/pythonpath.sh'
+[7.250s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond2/bin'
+[7.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pond2)
+[7.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/package.ps1'
+[7.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/package.dsv'
+[7.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/package.sh'
+[7.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/package.bash'
+[7.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond2/share/pond2/package.zsh'
+[7.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/igor/Code/Modulo8/src/install/pond2/share/colcon-core/packages/pond2)
+[7.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/igor/Code/Modulo8/src/pond3' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/src/build/pond3/prefix_override:/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pond3 build --build-base /home/igor/Code/Modulo8/src/build/pond3/build install --record /home/igor/Code/Modulo8/src/build/pond3/install.log --single-version-externally-managed
+[7.341s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3' for CMake module files
+[7.342s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3' for CMake config files
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3/lib'
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3/bin'
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3/lib/pkgconfig/pond3.pc'
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3/lib/python3.10/site-packages'
+[7.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('pond3', 'pythonpath')
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/pythonpath.ps1'
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/pythonpath.dsv'
+[7.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/hook/pythonpath.sh'
+[7.393s] Level 1:colcon.colcon_core.environment:checking '/home/igor/Code/Modulo8/src/install/pond3/bin'
+[7.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pond3)
+[7.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/package.ps1'
+[7.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/package.dsv'
+[7.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/package.sh'
+[7.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/package.bash'
+[7.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/igor/Code/Modulo8/src/install/pond3/share/pond3/package.zsh'
+[7.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/igor/Code/Modulo8/src/install/pond3/share/colcon-core/packages/pond3)
+[7.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.438s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/igor/Code/Modulo8/src/install/local_setup.ps1'
+[7.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/igor/Code/Modulo8/src/install/_local_setup_util_ps1.py'
+[7.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/igor/Code/Modulo8/src/install/setup.ps1'
+[7.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/igor/Code/Modulo8/src/install/local_setup.sh'
+[7.612s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/igor/Code/Modulo8/src/install/_local_setup_util_sh.py'
+[7.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/igor/Code/Modulo8/src/install/setup.sh'
+[7.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/igor/Code/Modulo8/src/install/local_setup.bash'
+[7.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/igor/Code/Modulo8/src/install/setup.bash'
+[7.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/igor/Code/Modulo8/src/install/local_setup.zsh'
+[7.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/igor/Code/Modulo8/src/install/setup.zsh'
