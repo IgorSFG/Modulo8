@@ -1,5 +1,5 @@
 # Conversando com o Chatbot!
-Chatbot tem como função responder as requisições dos usuários. Aqui, você manda ele ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
+Chatbot tem como função responder as requisições dos usuários. Aqui, você manda o robô ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
 
 ## Compilação do pacote e determinando variáveis
 Para que o pacote funcione, é necessário compilá-lo, para torná-lo pronto para a execução em sua versão mais recente, e ajustar suas variáveis para o ROS utilizar suas utilidades. No diretório `Modulo8`, rode os seguintes comandos:

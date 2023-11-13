@@ -34,7 +34,7 @@ Você pode conferir os projetos das atividades a seguir.
 Tartabot tem a função de mapear um local e depois navegar por ele através de coorenadas previamente estabelecidas. Ele foi criado como uma aplicação utilizando de pacotes ROS e launchers.
 
 ### [POND3: Conversando com Chatbot!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond3)
-Chatbot tem como função responder as requisições dos usuários. Aqui, você manda ele ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
+Chatbot tem como função responder as requisições dos usuários. Aqui, você manda o robô ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
 
 ## Anotações
 Anotações importantes decorretes do Modulo8.
