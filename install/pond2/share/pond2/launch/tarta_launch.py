@@ -12,7 +12,7 @@ def generate_launch_description():
         ),
         launch_arguments={
             'use_sim_time': 'True',
-            'map': 'my-map.yaml'
+            'map': 'cs-map.yaml'
         }.items(),
     )
     turtlebot3_gazebo = IncludeLaunchDescription(

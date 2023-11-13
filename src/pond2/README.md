@@ -1,4 +1,4 @@
-# Mapenado e navegando com Tartabot!
+# Mapeando e navegando com Tartabot!
 Tartabot tem a função de mapear um local e depois navegar por ele através de coorenadas previamente estabelecidas. Ele foi criado como uma aplicação utilizando de pacotes ROS e launchers.
 
 ## Compilação do pacote e determinando variáveis

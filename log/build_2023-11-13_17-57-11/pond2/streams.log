@@ -1,0 +1,26 @@
+[2.029s] Invoking command in '/home/igor/Code/Modulo8/src/pond2': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed
+[2.489s] running egg_info
+[2.490s] writing ../../build/pond2/pond2.egg-info/PKG-INFO
+[2.491s] writing dependency_links to ../../build/pond2/pond2.egg-info/dependency_links.txt
+[2.494s] writing entry points to ../../build/pond2/pond2.egg-info/entry_points.txt
+[2.495s] writing requirements to ../../build/pond2/pond2.egg-info/requires.txt
+[2.496s] writing top-level names to ../../build/pond2/pond2.egg-info/top_level.txt
+[2.502s] reading manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[2.505s] writing manifest file '../../build/pond2/pond2.egg-info/SOURCES.txt'
+[2.506s] running build
+[2.506s] running build_py
+[2.507s] copying pond2/teleop.py -> /home/igor/Code/Modulo8/build/pond2/build/lib/pond2
+[2.508s] running install
+[2.510s] running install_lib
+[2.513s] copying /home/igor/Code/Modulo8/build/pond2/build/lib/pond2/teleop.py -> /home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2
+[2.515s] byte-compiling /home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2/teleop.py to teleop.cpython-310.pyc
+[2.519s] running install_data
+[2.520s] copying launch/tarta_launch.py -> /home/igor/Code/Modulo8/install/pond2/share/pond2/launch
+[2.520s] running install_egg_info
+[2.524s] removing '/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info' (and everything under it)
+[2.525s] Copying ../../build/pond2/pond2.egg-info to /home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages/pond2-1.0.0-py3.10.egg-info
+[2.529s] running install_scripts
+[2.569s] Installing tartabot script to /home/igor/Code/Modulo8/install/pond2/lib/pond2
+[2.569s] Installing teleop script to /home/igor/Code/Modulo8/install/pond2/lib/pond2
+[2.573s] writing list of installed files to '/home/igor/Code/Modulo8/build/pond2/install.log'
+[2.637s] Invoked command in '/home/igor/Code/Modulo8/src/pond2' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/build/pond2/prefix_override:/home/igor/Code/Modulo8/install/pond2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond2 build --build-base /home/igor/Code/Modulo8/build/pond2/build install --record /home/igor/Code/Modulo8/build/pond2/install.log --single-version-externally-managed
