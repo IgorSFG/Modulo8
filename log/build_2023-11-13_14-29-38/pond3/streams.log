@@ -1,0 +1,24 @@
+[1.104s] Invoking command in '/home/igor/Code/Modulo8/src/pond3': PYTHONPATH=/home/igor/Code/Modulo8/build/pond3/prefix_override:/home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond3 build --build-base /home/igor/Code/Modulo8/build/pond3/build install --record /home/igor/Code/Modulo8/build/pond3/install.log --single-version-externally-managed
+[1.445s] running egg_info
+[1.446s] writing ../../build/pond3/pond3.egg-info/PKG-INFO
+[1.447s] writing dependency_links to ../../build/pond3/pond3.egg-info/dependency_links.txt
+[1.449s] writing entry points to ../../build/pond3/pond3.egg-info/entry_points.txt
+[1.449s] writing requirements to ../../build/pond3/pond3.egg-info/requires.txt
+[1.451s] writing top-level names to ../../build/pond3/pond3.egg-info/top_level.txt
+[1.454s] reading manifest file '../../build/pond3/pond3.egg-info/SOURCES.txt'
+[1.455s] writing manifest file '../../build/pond3/pond3.egg-info/SOURCES.txt'
+[1.455s] running build
+[1.456s] running build_py
+[1.456s] copying pond3/chatbot.py -> /home/igor/Code/Modulo8/build/pond3/build/lib/pond3
+[1.456s] running install
+[1.457s] running install_lib
+[1.458s] copying /home/igor/Code/Modulo8/build/pond3/build/lib/pond3/chatbot.py -> /home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages/pond3
+[1.458s] byte-compiling /home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages/pond3/chatbot.py to chatbot.cpython-310.pyc
+[1.459s] running install_data
+[1.460s] running install_egg_info
+[1.462s] removing '/home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.463s] Copying ../../build/pond3/pond3.egg-info to /home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages/pond3-0.0.0-py3.10.egg-info
+[1.464s] running install_scripts
+[1.490s] Installing chatbot script to /home/igor/Code/Modulo8/install/pond3/lib/pond3
+[1.491s] writing list of installed files to '/home/igor/Code/Modulo8/build/pond3/install.log'
+[1.524s] Invoked command in '/home/igor/Code/Modulo8/src/pond3' returned '0': PYTHONPATH=/home/igor/Code/Modulo8/build/pond3/prefix_override:/home/igor/Code/Modulo8/install/pond3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pond3 build --build-base /home/igor/Code/Modulo8/build/pond3/build install --record /home/igor/Code/Modulo8/build/pond3/install.log --single-version-externally-managed

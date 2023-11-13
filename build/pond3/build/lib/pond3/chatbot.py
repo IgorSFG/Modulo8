@@ -1,34 +1,35 @@
 #! /bin/env python3
 import re
 
-def greet_back(time_of_day):
-    if time_of_day == "dia":
-        return f"Bom {time_of_day}!"
-    else:
-        return f"Boa {time_of_day}!"
-
-def genki_back(_):
-    return "Comigo está tudo bem, e com você?"
+def go_to(local):
+    phrase = "Indo até "
+    for loc in local[0]:
+        if loc:
+            phrase += f"{loc} "
+    
+    return phrase
 
 intent_dict = {
-    r"\b(?:v[aá]i?|dirija(?:-se)?|leve|ir)\s?(?:para|at[ée]|ao|[aà])?\s?(?:a|o|ao)?\s(ponto|prateleira|estante|local|peça)\s?(\d*)",
+    r"\b(?:v[aá]i?|dirija(?:-se)?|leve|ir|me)\s?(?:para|pr[ao]|at[ée]|leve|-?me)?\s?(?:a|o|ao|[aà])?\s?(ponto|prateleira|estante|local|peça|secretaria|labs?(?:orat[óo]rio)?|biblioteca)\s?(\d*)": "go_to",
 }
 
 action_dict = {
-        "greetings": greet_back,
-        "genki": genki_back
+    "go_to": go_to,
 }
 
 def main():
+    print('Fala alguma coisa pro Bot\n(aperte "s" para sair)\n')
+    while True:
+        command = input("Você: ").lower()
 
-    command = input("Digite o seu comando: ")
+        if command == "s": break
 
-    for key, value in intent_dict.items():
-        pattern = re.compile(key)
-        groups = pattern.findall(command)
-        if groups:
-            print(f"{action_dict[value](groups[0])}", end=" ")
-    print()
+        for key, value in intent_dict.items():
+            pattern = re.compile(key)
+            groups = pattern.findall(command)
+            if groups:
+                print(f"Bot: {action_dict[value](groups)}")
+        print()
 
 if __name__ == "__main__":
     main()

@@ -1,31 +1,7 @@
 # Mapenado e navegando com Tartabot!
 Tartabot tem a função de mapear um local e depois navegar por ele através de coorenadas previamente estabelecidas. Ele foi criado como uma aplicação utilizando de pacotes ROS e launchers.
 
-## Instalação do Pacote ROS
-Para a instalação do pacote pond2, reponsável pelas funcionalidades do tartabot, devem ser seguidos os seguintes passos.
-
-### Instalções necessárias para o funcionamento do Tartabot:
-```
-Ubuntu
-ROS
-Nav2
-```
-
-### Clonar o Github e baixar dependências:
-Caso necessite, baixe as seguintes dependências:
-```
-sudo apt install python3-rosdep
-sudo rosdep init
-rosdep update
-pip install setuptools==58.2.0
-```
-Rode os seguintes comandos:
-```
-git clone https://github.com/IgorSFG/Modulo8.git
-rosdep install -i --from-path src --rosdistro humble -y
-```
-
-### Compilação do pacote e determinando variáveis
+## Compilação do pacote e determinando variáveis
 Para que o pacote funcione, é necessário compilá-lo, para torná-lo pronto para a execução em sua versão mais recente, e ajustar suas variáveis para o ROS utilizar suas utilidades.
 ```
 colcon build --packages-select pond2
