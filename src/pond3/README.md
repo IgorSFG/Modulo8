@@ -15,5 +15,7 @@ ros2 run pond3 chatbot
 ```
 
 ### Vídeo do Chatbot!
-Você pode conferir o funcionamento do Tartabot no vídeo a seguir:
+Você pode conferir o funcionamento do Chatbot no vídeo a seguir:
+
+https://drive.google.com/file/d/1848-4krpegM1NLi1aeCP9FUqGI7zMQol/view?usp=sharing
 
