@@ -1,4 +1,0 @@
-[console_scripts]
-tartabot = pond2.tartabot:main
-teleop = pond2.teleop:main
-

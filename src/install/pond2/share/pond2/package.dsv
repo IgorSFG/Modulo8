@@ -1,6 +1,0 @@
-source;share/pond2/hook/pythonpath.ps1
-source;share/pond2/hook/pythonpath.dsv
-source;share/pond2/hook/pythonpath.sh
-source;share/pond2/hook/ament_prefix_path.ps1
-source;share/pond2/hook/ament_prefix_path.dsv
-source;share/pond2/hook/ament_prefix_path.sh

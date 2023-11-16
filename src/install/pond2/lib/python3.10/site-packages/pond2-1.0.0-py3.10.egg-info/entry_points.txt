@@ -1,4 +1,0 @@
-[console_scripts]
-savemap = pond2.savemap:main
-tartabot = pond2.tartabot:main
-
