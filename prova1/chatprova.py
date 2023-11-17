@@ -1,11 +1,11 @@
 #! /bin/env python3
 import re
 
-def update_payment():
-    return "vamos atualizar"
+def update_payment(payment):
+    return f"vamos atualizar"
 
-def track_order():
-    return "vamos observar"
+def track_order(order):
+    return f"vamos observar"
 
 intent_dict = {
     r"\b(?:(forma\sde|m[ée]todo\sde)?\s?pagamento|cart[ãa]o\s?(?:de)?\s?(?:cr[ée]dito|d[ée]bito)?)?(?:desatualizado|atualizar|mudar)\s?(?:meu|minhas?|[ao])?\s?(?:(forma\sde|método\sde)?\s?pagamento|cart[ãa]o\s?(?:de)?\s?(?:cr[ée]dito|d[ée]bito)?|informaç[ãaõo](?:o|es))?\s?(?:de)?\s?(?:(forma\sde|método\sde)?\s?pagamento|cart[ãa]o\s?(?:de)?\s?(?:cr[ée]dito|d[ée]bito)?)?": "update_payment",
