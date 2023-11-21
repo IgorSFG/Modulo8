@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-           'superbot = pond4.superbot:main', 
+           'llama = pond4.llama:main', 
         ],
     },
 )
