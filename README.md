@@ -36,7 +36,8 @@ Tartabot tem a função de mapear um local e depois navegar por ele através de 
 ### [POND3: Conversando com Chatbot!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond3)
 Chatbot tem como função responder as requisições dos usuários. Aqui, você manda o robô ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
 
-### [POND4: ]()
+### [POND4: Pesquisando com Llama!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond4)
+Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `mini-orca`.
 
 ## Anotações
 Anotações importantes decorretes do Modulo8.

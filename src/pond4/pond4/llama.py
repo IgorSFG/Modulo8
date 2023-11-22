@@ -4,21 +4,20 @@ from langchain.llms import Ollama
 
 conversation_history = []
 
-def generate_response(prompt):
-    conversation_history.append(prompt)
+llama = Ollama(
+    base_url='http://localhost:11434',
+    model="llama"
+)
+
+def llama_response(message, history):
+    conversation_history.append(message)
     full_prompt = "\n".join(conversation_history)
-    llama = Ollama(base_url='http://localhost:11434', model="llama")
 
     return llama(full_prompt)
 
 def main():
-    iface = gr.Interface(
-        fn=generate_response,
-        inputs=gr.Textbox(lines=2, placeholder="Enter your prompt here..."),
-        outputs="text"
-    )
-
-    iface.launch()
+    llama_face = gr.ChatInterface(llama_response)
+    llama_face.launch()
 
 if __name__ == "__main__":
     main()
