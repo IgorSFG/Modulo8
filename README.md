@@ -39,6 +39,9 @@ Chatbot tem como função responder as requisições dos usuários. Aqui, você 
 ### [POND4: Pesquisando com Llama!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond4)
 Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `mini-orca`.
 
+### [POND6: Logicando com Logictron!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond6)
+Logictron foi desenvolvido como uma aplicação em python baseado em perceptrons, os primeiros modelos de neurônios artificiais que serviram de conceito fundamental no campo da inteligência artificial. Logictron é capaz, através de um treinamento prévio, simular o comportamento das portas lógicas AND, OR, NAND e XOR e suas utilizações.
+
 ## Anotações
 Anotações importantes decorretes do Modulo8.
 
