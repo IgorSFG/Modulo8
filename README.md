@@ -37,7 +37,10 @@ Tartabot tem a função de mapear um local e depois navegar por ele através de 
 Chatbot tem como função responder as requisições dos usuários. Aqui, você manda o robô ir até um local e ele passa o feedback de estar indo até lá. O projeto foi desenvolvido como uma aplicação de pacote em ROS para simular a movimentação do robô via comandos no terminal.
 
 ### [POND4: Pesquisando com Llama!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond4)
-Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `mini-orca`.
+Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `orca-mini`.
+
+### [POND5: Pesquisando e Contextualizando com Llama5!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond5)
+Llama5 é uma evolução de [Llama](https://github.com/IgorSFG/Modulo8/tree/main/src/pond4). Ele ajuda na pesquisa de normas de segurança em ambientes industriais com a adição de contextualizar páginas web para ajudar na resposta final. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `orca-mini`.
 
 ### [POND6: Logicando com Logictron!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond6)
 Logictron foi desenvolvido como uma aplicação em python baseado em perceptrons, os primeiros modelos de neurônios artificiais que serviram de conceito fundamental no campo da inteligência artificial. Logictron é capaz, através de um treinamento prévio, simular o comportamento das portas lógicas AND, OR, NAND e XOR e suas utilizações.

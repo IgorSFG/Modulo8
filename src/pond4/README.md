@@ -1,8 +1,8 @@
 # Pesquisando com Llama!
-Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `mini-orca`.
+Llama vem com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema contém uma interface gráfica, concebido pela biblioteca em python `gradio` e responde de forma sucinta e clara graças ao Large Language Model (LLM) `orca-mini`.
 
 ## Configurando Llama!
-É recomendado para o pleno funcionamento do Llama 8GB de RAM. Para utilizar o LLM, primeiro temos que instala-lo na sua máquina. Antes de mais nada, confira se você tem `langchain`, `ollama` e o modelo `mini-orca` instalados. Então, em `Modulo8` rode:
+É recomendado para o pleno funcionamento do Llama 8GB de RAM. Para utilizar o LLM, primeiro temos que instala-lo na sua máquina. Antes de mais nada, confira se você tem `langchain`, `ollama` e o modelo `orca-mini` instalados. Então, em `Modulo8` rode:
 ```
 cd src/pond4/pond4
 chmod -R o+rx .
