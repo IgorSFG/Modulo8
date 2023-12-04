@@ -1,5 +1,5 @@
-# Nemerando com EpicReader!
-EpicReader foi desenvolvido como uma aplicação em python baseado em perceptrons de múltiplas camadas. EpicReader é capaz, através de um treinamento prévio, descrever um número presente em uma imagem.
+# Numerando com EpicReader!
+EpicReader foi desenvolvido como uma aplicação em python baseado em perceptrons de múltiplas camadas (redes neurais). Com um treinamento prévio, EpicReader é capaz de reconhcer um número em uma imagem.
 
 ## Configurando EpicReader!
 Garanta que você tem a linguagem de programação python instalada em seu computador, e as bibliotecas `numpy`, `matplotlib` e `tensorflow`.
@@ -13,7 +13,6 @@ Para reconhecer números em imagens com EpicReader, basta rodar o comando no dir
 ### Vídeo do EpicReader!
 Você pode conferir o funcionamento do EpicReader no vídeo a seguir:
 
-https://drive.google.com/file/d/1D3GnBAxG4xk96Rlbggdd_dQY_qJkwfLN/view?usp=sharing
-
+https://drive.google.com/file/d/1H7ESfPYjPVovgWjcsNdpHD4XeXTfxrCT/view?usp=sharing
 
 

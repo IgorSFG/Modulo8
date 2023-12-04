@@ -45,6 +45,9 @@ Llama5 é uma evolução de [Llama](https://github.com/IgorSFG/Modulo8/tree/main
 ### [POND6: Logicando com Logictron!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond6)
 Logictron foi desenvolvido como uma aplicação em python baseado em perceptrons, os primeiros modelos de neurônios artificiais que serviram de conceito fundamental no campo da inteligência artificial. Logictron é capaz, através de um treinamento prévio, simular o comportamento das portas lógicas AND, OR, NAND e XOR e suas utilizações.
 
+### [POND7: Numerando com EpicReader!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond7)
+EpicReader foi desenvolvido como uma aplicação em python baseado em perceptrons de múltiplas camadas (redes neurais). Com um treinamento prévio, EpicReader é capaz de reconhcer um número em uma imagem.
+
 ## Anotações
 Anotações importantes decorretes do Modulo8.
 
