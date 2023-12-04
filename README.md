@@ -49,6 +49,12 @@ Logictron foi desenvolvido como uma aplicação em python baseado em perceptrons
 Anotações importantes decorretes do Modulo8.
 
 ### Comandos recorrentes
+
+#### Pacote ROS
+```
+ros2 pkg create --build-type ament_python <nome-do-pacote>
+```
+
 #### Teleop
 ```
 ros2 run turtlebot3_teleop teleop_keyboard
