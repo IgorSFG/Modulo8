@@ -1,0 +1,6 @@
+pywin32
+speechrecognition
+gtts
+pydub
+pygame
+googletrans==4.0.0-rc1
