@@ -11,6 +11,7 @@ class EpicTranslator:
         self.stt = STT()
         self.super_translator = SuperTranslator()
         self.tts = TTS()
+        self.audio = "sample/speech.mp3"
         
         if len(sys.argv) != 2:
             print("Usage: python epic_translator.py <audio_path>")
@@ -27,12 +28,15 @@ class EpicTranslator:
     def start(self):
         text = self.stt.speech_to_text(self.audio_path)
         text = self.super_translator.translate(text)
-        audio = self.tts.text_to_speech(text)
-        self.tts.play_audio(audio)
+        self.audio = self.tts.text_to_speech(text)
+    
+    def  play(self):
+        self.tts.play_audio(self.audio)
 
 def main():
     epic_translator = EpicTranslator()
     epic_translator.start()
+    epic_translator.play()
 
 if __name__ == "__main__":
     main()

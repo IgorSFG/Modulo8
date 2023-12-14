@@ -17,7 +17,7 @@ class STT():
         with sr.AudioFile(audio_path) as source:
             audio = self.recognizer.record(source)
             text = self.recognizer.recognize_google(audio, language=language)
-            print("You said:", text)
+            print(f"You said: {text}\n")
             return text
 
 if __name__ == "__main__":
