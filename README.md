@@ -48,7 +48,7 @@ Logictron foi desenvolvido como uma aplicação em python baseado em perceptrons
 ### [POND7: Numerando com EpicReader!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond7)
 EpicReader foi desenvolvido como uma aplicação em python baseado em perceptrons de múltiplas camadas (redes neurais). Com um treinamento prévio, EpicReader é capaz de reconhcer um número em uma imagem.
 
-### [POND8: Traduzindo e Comentando com EpicTranslator!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond8)
+### [POND8: Traduzindo e Comentando com EpicTranslator!!!](https://github.com/IgorSFG/Modulo8/tree/main/src/pond8)
 EpicTranslator foi desenvolvido como uma aplicação em python capaz de transformar arquivos de audio em textos, traduzi-los, e então, falar os textos traduzidos.
 
 ## Anotações
